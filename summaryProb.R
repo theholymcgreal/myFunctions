@@ -53,3 +53,4 @@ pf <- matrix(c(.20, .05, .15, .60),
              byrow = T,
              dimnames = list(c("Fail", "Pass"),
                              c("Don't Study", "Study")))
+summaryProb(pf)
